@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Perl when iterating over arrays using a foreach loop and explicit index access. The `bug.pl` file contains the buggy code, while `bugSolution.pl` provides the corrected version.  The issue arises from the use of `$#array` which returns the *last* index, not the number of elements. 
